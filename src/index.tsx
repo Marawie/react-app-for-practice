@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Calculator from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const leftNum = 0
+const rightNum = 0;
+
+
 root.render(
   <React.StrictMode>
-    <App />
+      <Calculator leftNum={leftNum} rightNum={rightNum}/>
   </React.StrictMode>
 );
 
