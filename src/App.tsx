@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import styles from './Caluclator.module.css'
 
-interface CalculatorProps {
-    leftNum: number;
-    rightNum: number;
-}
 
-const Calculator: React.FC<CalculatorProps> = () => {
+
+const Calculator: React.FC = () => {
     const [value, setValue] = useState('');
     const [prevValue, setPrevValue] = useState('');
     const [mathematicalOperation, setMathematicalOperation] = useState('');

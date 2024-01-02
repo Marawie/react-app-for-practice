@@ -7,13 +7,11 @@ import Calculator from "./App";
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
-const leftNum = 0
-const rightNum = 0;
 
 
 root.render(
   <React.StrictMode>
-      <Calculator leftNum={leftNum} rightNum={rightNum}/>
+      <Calculator/>
   </React.StrictMode>
 );
 
